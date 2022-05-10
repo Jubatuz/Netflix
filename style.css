@@ -14,11 +14,16 @@ body{
     font-family: 'Times New Roman', 'Times New Roman', Times, serif;
 }
 
-header .container{
-    border: 1px solid black;
+.container{
+   /* margin: 10px;*/
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header .logo{
+   
     color: var(--vermelho);
     font-family:'Arial Black',Times;
     font-size: 40px;
