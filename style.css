@@ -1,42 +1,67 @@
-:root{
+:root {
     --vermelho: #e50914;
-    --preto:#141414;
+    --preto: #141414;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+
+/*elemente base*/
+body {
     background: var(--preto);
     font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    color: white;
 }
 
-.container{
-   /* margin: 10px;*/
-    display:flex;
+header .container {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-header .logo{
-   
+header .logo {
+    margin-left: 5px;
     color: var(--vermelho);
-    font-family:'Arial Black',Times;
+    font-family: 'Arial Black', Times;
     font-size: 40px;
 }
 
 header nav a {
     text-decoration: none;
-    color:#aaa;
+    color: #aaa;
     margin-right: 10px;
 
 }
 
-header nav a:hover{
+header nav a:hover {
     color: #afff;
+
+}
+
+/*filme principal*/
+
+.filme-principal {
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('img/melgor.jpg');
     
+    height: 500px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.filme-principal .titulo {
+    font-size: 45px;
 }
