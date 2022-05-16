@@ -13,7 +13,7 @@
 /*elemente base*/
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', 'Times New Roman', Times, serif;
+    font-family: 'arial', Times, serif;
     color: white;
 }
 
@@ -104,4 +104,8 @@ header nav a:hover {
 .container {
     margin-left: 25px;
     margin-right: 25px;
+}
+
+.carrosel-filmes{
+    margin-top: 7px;
 }
