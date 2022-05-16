@@ -47,7 +47,7 @@ header nav a:hover {
 
 .filme-principal {
     font-size: 16px;
-    background-image: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('img/melgor.jpg');
+    background-image: url('img/melgor.jpg');
 
     height: 500px;
     background-size: cover;
@@ -90,4 +90,18 @@ header nav a:hover {
 
 .botao i {
     margin-right: 6px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+
+
+}
+
+.container {
+    margin-left: 25px;
+    margin-right: 25px;
 }
